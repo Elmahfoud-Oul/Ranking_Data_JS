@@ -19,7 +19,7 @@ Make sure you have **Node.js** installed on your system.
 
 1. **Clone the Repository**:
    ```bash
-   git clone /url/
+   git clone https://github.com/Elmahfoud-Oul/Ranking_Data_JS.git
    
 2. **Install in path of script**:
    ```bash
