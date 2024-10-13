@@ -1,6 +1,9 @@
 # Data ranking
 
-This project provides a script that converts a `.txt` file containing university information into CSV format. The script processes a text file where each line contains university rank, name, and town, separated by tab spaces. The output is a well-structured CSV file.
+This project provides a script that converts a `.txt` file containing university information into CSV format. The script processes a text file where each line contains  rank, name, and town, separated by tab spaces. The output is a well-structured CSV file.
+
+## Attension
+- Data name `.txt` should change by your variables name.
 
 ## Features
 - Reads data from a `.txt` file.
@@ -18,11 +21,21 @@ Make sure you have **Node.js** installed on your system.
    ```bash
    git clone /url/
    
-1. **Clone the Repository**:
+2. **Install in path of script**:
    ```bash
-   git clone /url/
+   npm install
 
-1. **Clone the Repository**:
+3. **Setup Txt file**:
+- Create `.txt` file.
+- Name `.txt` with name you put in script exp here `universities.txt`
+- Put your data in `.txt` file.
+- Change Names to your own names.  
+
+4. **Run script**:
    ```bash
-   git clone /url/
-   
+   npm <ScriptName>.js
+
+3. **Get results**:
+- check folder will find <TxtName>.csv `.txt` file.
+
+THis script created by (Elmahfoud)
